@@ -1,0 +1,20 @@
+html, body{
+    height: 100vh;
+    margin: 0;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+#root main{
+    flex:1;
+}
+#root header, #root footer{
+    text-align: center;
+}
+#root header nav{
+    display: flex;
+    justify-content: center;
+}
